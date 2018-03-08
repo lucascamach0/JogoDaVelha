@@ -16,7 +16,7 @@ public class Jogo {
 	    }
 	    
 	    public void iniciarJogadores(){
-	        System.out.println("Quem vai ser o Jogador 1 ?");
+	        System.out.println("Quem vai ser o Player 1 ?");
 	        if(escolherJogador() == 1)
 	            this.jogador1 = new Humano(1);
 	        else
