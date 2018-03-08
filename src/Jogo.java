@@ -22,7 +22,7 @@ public class Jogo {
 	        else
 	            this.jogador1 = new Computador(1);
 	        
-	        System.out.println("----------------------");
+	        System.out.println("---------------------------");
 	        System.out.println("Quem vai ser o Jogador 2 ?");
 	        
 	        if(escolherJogador() == 1)
